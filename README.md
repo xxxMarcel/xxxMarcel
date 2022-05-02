@@ -1,16 +1,13 @@
-### Hi there 👋
-
-<!--
-**AcidCodeZ/AcidCodeZ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```cs
+using Github;
+using System.Collections.Generic;
+class AcidCodeZ : Profile {
+  public AcidCodeZ() {
+    this.MyUsername = "Acid";
+    this.MyAiases = new List<string>("xByron","Alex","Acid");
+    this.MyProgrammingLanguages = new List<string>(){"Python","C#"};
+    this.MyContacts = new Dictionary<string,string>(){{"discord","Acid™#7587"},{"gmail","soon!"}};
+    this.MyProjects = new Dictionary<string,string>(){{"C#","Progressing With My C-Sharp Skills."},{"C#","Learning To Send & Get Requests Using System.Net.Http."}};
+  }
+}
+```
