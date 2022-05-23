@@ -4,7 +4,7 @@ using System;
 using System.Threading;
 using System.Collections.Generic;
 class ReuelPlayZ : Github.ReuelPlayZ.Profile {
-  public AcidCodeZ() {
+  public ReuelPlayZ() {
     this.MyUsername = "Reuel";
     this.MyAiases = new List<string>("Alex","Acid","xBryon","xByron","Reuel");
     this.MyProgrammingLanguages = new List<string>(){"Python","C#"};
