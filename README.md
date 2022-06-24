@@ -3,13 +3,18 @@ using Github;
 using System;
 using System.Threading;
 using System.Collections.Generic;
-class ReuelPlayZ : Github.ReuelPlayZ.Profile {
+class Marcel : Github.xxxMarcel.Profile {
+  public string MyUsername;
+  public List<string> MyAliases;
+  public List<string> MyProgrammingLanguages;
+  public Dictionary<string,string> MyContacts;
+  public Dictionary<string,string> MyProjects;
   public ReuelPlayZ() {
-    this.MyUsername = "Reuel";
-    this.MyAiases = new List<string>("Alex","Acid","xBryon","xByron","Reuel");
-    this.MyProgrammingLanguages = new List<string>(){"Python","C#"};
-    this.MyContacts = new Dictionary<string,string>(){{"discord","Reuel#5201"},{"gmail","soon!"}};
-    this.MyProjects = new Dictionary<string,List<string>>(){{"C#","Progressing With My C-Sharp Skills, Working On Calling APIs Using System.Net.Http."},{"Python","Nothing ATM, Just Working With C# For Now."}};
+    this.MyUsername = "Marcel";
+    this.MyAiases = new List<string>("Alex","xBryon","xByron","Reuel");
+    this.MyProgrammingLanguages = new List<string>(){"Rust","C#"};
+    this.MyContacts = new Dictionary<string,string>(){{"discord","Marcel#6395"}};
+    this.MyProjects = new Dictionary<string,List<string>>(){{"Rust","Learning it"}};
     Thread.Sleep(5000);
     Console.WriteLine("That's Pretty Much It.");
     Thread.Sleep(2500);
