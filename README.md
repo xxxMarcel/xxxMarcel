@@ -7,17 +7,13 @@ class Marcel {
   public List<string> MyAliases;
   public List<string> MyProgrammingLanguages;
   public Dictionary<string,string> MyContacts;
-  public Dictionary<string,string> MyProjects;
+  public Dictionary<string,string> MyOngoingProjects;
   Marcel() {
     this.MyUsername = "Marcel";
     this.MyAiases = new List<string>("Alex","xBryon","xByron","Reuel");
-    this.MyProgrammingLanguages = new List<string>(){"Rust","C#"};
+    this.MyProgrammingLanguages = new List<string>(){"Rust","Java","C#"};
     this.MyContacts = new Dictionary<string,string>(){{"discord","Marcel#6395"}};
-    this.MyProjects = new Dictionary<string,List<string>>(){{"Rust","Learning it"}};
-    Thread.Sleep(5000);
-    Console.WriteLine("That's Pretty Much It.");
-    Thread.Sleep(2500);
-    Environment.Exit(0);
+    this.MyOngoingProjects = new Dictionary<string,List<string>>(){{"Rust","Learning it"}}; //Thats pretty much it.
   }
 }
 ```
