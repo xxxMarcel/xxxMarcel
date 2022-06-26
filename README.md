@@ -1,19 +1,13 @@
-```cs
-using System;
-using System.Threading;
-using System.Collections.Generic;
-class Marcel {
-  public string MyUsername;
-  public List<string> MyAliases;
-  public List<string> MyProgrammingLanguages;
-  public Dictionary<string,string> MyContacts;
-  public Dictionary<string,string> MyOngoingProjects;
-  Marcel() {
-    this.MyUsername = "Marcel";
-    this.MyAiases = new List<string>("Alex","xBryon","xByron","Reuel");
-    this.MyProgrammingLanguages = new List<string>(){"Rust","Java","C#"};
-    this.MyContacts = new Dictionary<string,string>(){{"discord","Marcel#6395"}};
-    this.MyOngoingProjects = new Dictionary<string,List<string>>(){{"Rust","Learning it"}}; //Thats pretty much it.
-  }
-}
-```
+<h1 align="center">Hey, I'm Marcel 🙂.</h1>
+<h2 align="center">A teen that likes to program.</h2>
+
+## About Myself
+I'm Marcel, an indian teen. I usually program in Rust and C#. I started programming in mid 2021, when I was just talking to my friends and they told me about programming and I got hooked. I am also interest in machine learning.
+## Languages I know
+* C#
+* Java
+* Rust
+* Python
+
+## Long term goals
+* Get a job as a software developer/engineer.
