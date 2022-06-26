@@ -8,6 +8,3 @@ I'm Marcel, an indian teen. I usually program in Rust and C#. I started programm
 * Java
 * Rust
 * Python
-
-## Long term goals
-* Get a job as a software developer/engineer.
